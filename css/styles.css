@@ -1,0 +1,158 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    width: 1440px;
+    font-weight: 400;
+    font-family: 'Open sans';
+    font-size: larger;
+    background: url('/images/bg-desktop.svg') no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    color: #fff;
+    background-size: 2300px;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 50px;
+    color: #fff;
+    text-align: start;
+}
+
+.logo {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    margin-top: 135px;
+    width: 100%;
+}
+
+.right-col {
+    display: flex;
+    flex-direction: column;
+    column-gap: 2px;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-left: 0px;
+    margin-top: -140px;
+    height: 511px;
+    text-align: center;
+}
+
+.right-col p {
+    margin: -200px 0;
+    line-height: 30px;
+    text-align: start;
+}
+
+button {
+    margin-left: 0px;
+    padding: 15px 50px;
+    font-family: 'Poppins';
+    border-radius: 5em;
+    border: none;
+    color: hsl(257, 40%, 49%);
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+footer {
+    display: flex;
+    width: auto;
+    height: 40px;
+}
+
+.footer-socials {
+    display: flex;
+    margin-right: 60px;
+}
+
+a {
+    margin: 5px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding:0 5px;
+    color: #fff;
+}
+
+a:hover {
+    color:  hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
+
+@media screen and (max-width:420px) {
+    body {
+        width: 310px;
+        height: 600px;
+        margin:0;
+        background: url('/images/bg-mobile.svg') no-repeat;
+        background-color: hsl(257, 40%, 49%);
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 1.48rem;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    p {
+        text-align: center;
+        margin-top: -200px;
+        padding-left: 76px;
+    }
+
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: -70px 0;
+        margin-top: 90px;
+        padding: 0;
+    }
+
+    .right-col {
+        height: 55vh;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .illustration {
+        width: 270px;
+        height: 200px;
+        margin-left: 50px;
+        margin-top: -2em;
+    }
+
+    .logo {
+        width: 150px;
+        padding-top: 1px;
+        margin-top: 30px;
+    }
+
+    .footer-socials {
+        width: 360px;
+    }
+
+    button {
+        margin-left: 80px;
+        padding: 15px 80px;
+    }
+
+    .footer-socials {
+        margin-left: 130px;
+        padding: 3px 5px;
+    }
+}
