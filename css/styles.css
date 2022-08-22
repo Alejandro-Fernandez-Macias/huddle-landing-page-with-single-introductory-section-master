@@ -91,7 +91,7 @@ a:hover {
     border-color: hsl(300, 69%, 71%);
 }
 
-@media screen and (max-width:420px) {
+@media screen and (max-width:450px) {
     body {
         width: 310px;
         height: 600px;
